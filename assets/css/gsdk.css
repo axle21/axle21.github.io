@@ -1302,7 +1302,7 @@ input.ct-red + span + label + span.switch-right {
   opacity: 1;
   filter: alpha(opacity=100); }
 .navbar-transparent .navbar-toggle .icon-bar, [class*="navbar-ct"] .navbar-toggle .icon-bar {
-  background-color: #FFFFFF !important; }
+  background-color: rgb(3, 0, 0) !important; }
 
 .navbar-toggle:hover,
 .navbar-toggle:focus {
