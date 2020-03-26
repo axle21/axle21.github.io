@@ -26,7 +26,8 @@
 
 <!-- LANDING PAGE -->
 <body>
- <div id="navbar-full">
+<div id="particles-js"></div>
+<div id="navbar-full">
   <nav class="navbar navbar-ct-blue navbar-transparent navbar-fixed-top" role="navigation">
     <div class="container" >
       <!-- Brand and toggle get grouped for better mobile display -->
@@ -62,7 +63,7 @@
               <a href="./assets/file/axle-rodriguez-resume.pdf" class="btn btn-secondary">Get CV</a>
             </div>
             <img
-              src="./assets/img/developer-pic1.jpg"
+              src="./assets/img/developer-pic1.png"
             />
           </div>
       </div>
@@ -285,18 +286,15 @@
       <div class="space-30"></div>
       <div class="row">
            <div class="col-md-12 text-center">
-            <img  src="./assets/img/axle-logo.png">
-              <div class="credits">
-                
-                  &copy; <script>document.write(new Date().getFullYear())</script> Get Shit Done Kit by <a href="http://creative-tim.com"> Creative Tim</a>, made with <i class="fa fa-heart heart" alt="love"></i> for a better web.
-              </div>
+            <img  src="./assets/img/axle-logo.png"> <br>
+              
+                  &copy; Copyright <script>document.write(new Date().getFullYear())</script> All rights reserved | This template is made with <i class="fa fa-heart heart" alt="love"></i>  by <a class="tim" href="http://creative-tim.com"> Creative Tim</a>
+              
           </div>
       </div>
   </div>
 
 </div>
-
-
 
 
 
@@ -315,6 +313,14 @@
 	
     <script src="assets/js/custom.js"></script>
     <script src="assets/js/core.js"></script>
+
+
+    <!-- custom JS -->
+    <script src="./assets/js/particles/particle.js"></script>
+    <script src="./assets/js/particles/app.js"></script>
+
+
+
     <script type="text/javascript">
       const instance = new Typewriter('#typed', {
         strings: ['Hello ...', `I'm Axle`, `A Web Developer`],
@@ -322,5 +328,25 @@
         loop: true,
       });
     </script>
+
+    <!-- <script>
+      var count_particles, stats, update;
+      stats = new Stats;
+      stats.setMode(0);
+      stats.domElement.style.position = 'absolute';
+      stats.domElement.style.left = '0px';
+      stats.domElement.style.top = '0px';
+      document.body.appendChild(stats.domElement);
+      count_particles = document.querySelector('.js-count-particles');
+      update = function() {
+        stats.begin();
+        stats.end();
+        if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) {
+          count_particles.innerText = window.pJSDom[0].pJS.particles.array.length;
+        }
+        requestAnimationFrame(update);
+      };
+      requestAnimationFrame(update);
+    </script> -->
   
 </html>

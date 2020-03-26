@@ -7,9 +7,3 @@ $(window).scroll(function(e) {
     
 });
 
-
-// const instance = new Typewriter('#typed', {
-//     strings: ['Hello', 'World'],
-//     autoStart: true,
-//     loop: true,
-//   });
