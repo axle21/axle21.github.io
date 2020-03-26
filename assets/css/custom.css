@@ -4,6 +4,7 @@
     align-items: center;
     justify-content: center;
     margin: 10%;
+    position: relative;
 }
 
 .showcase-content img{
@@ -25,7 +26,6 @@
 
 
 .btn-primary {
-   
     background-color: #0e6cff;
     color: #ffff;
     
