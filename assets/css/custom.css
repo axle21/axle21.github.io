@@ -79,5 +79,16 @@ h1{
             display: none;
         }
 
+        #typed{
+            font-size: 45px;
+            padding-top: 40px;
+            padding-bottom: 40px;
+            width: 400px;
+            overflow: hidden;
+            white-space: nowrap;
+            align-content: stretch;
+            align-items: flex-end;
+        }
+
     
 } 
