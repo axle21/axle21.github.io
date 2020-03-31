@@ -52,8 +52,8 @@
     </div><!-- /.container-fluid -->
   </nav>
     <div id="navbar" >
-          <div class="showcase-content">
-            <div class="left-typed">
+          <div class="showcase-content rellax"  data-rellax-speed="-8" data-rellax-sm-speed="0">
+            <div class="left-typed " >
               <h1><div id="typed"></div></h1>
            
               <a href="#contact" class="btn btn-primary ">Hire Me</a>
@@ -64,14 +64,13 @@
             />
           </div>
       </div>
-    </div><!--  end navbar -->
+</div><!--  end navbar -->
 
-</div> <!-- end menu-dropdown -->
 
 <!-- ABOUT ME -->
 
 <div class="main" id="about">
-  <div class="container tim-container">
+  <div class="container tim-container" >
       <div id="extras">
           <div class="space"></div>
           <div class="row">
@@ -81,19 +80,16 @@
                   </div>
               </div>
               <div class="col-md-5 col-sm-12">
-                              <h1 class="main_title">ABOUT ME</h1>
-                              <hr >
-                              <div class="about-me">
-                              <p>Hi! I’m Axle, web developer for 4 years now. I have been focusing on developing web application websites.</p>
-                                
-                              <p>I aim to help people and businesses in developing a website that they desire and implement advanced functionalities and responsiveness. I can make your ideas come true.</p>
-                                
-                              <p>I’m self-motivated, passionate and hardworking with penchant for meeting deadlines. I am interested to work in a company that promotes sharing best practices and offering diverse customer projects. I am always welcome to new challenges that will enhance the skills and experience that I have gained in this field.</p>
-                              </div>
-                               
-                               
-                     
-
+                <h1 class="main_title">ABOUT ME</h1>
+                <hr >
+                <div class="about-me">
+                <p>Hi! I’m Axle, web developer for 4 years now. I have been focusing on developing web application websites.</p>
+                  
+                <p>I aim to help people and businesses in developing a website that they desire and implement advanced functionalities and responsiveness. I can make your ideas come true.</p>
+                  
+                <p>I’m self-motivated, passionate and hardworking with penchant for meeting deadlines. I am interested to work in a company that promotes sharing best practices and offering diverse customer projects. I am always welcome to new challenges that will enhance the skills and experience that I have gained in this field.</p>
+                </div>
+              
               </div>
           </div>
       </div>
@@ -102,6 +98,10 @@
 <!-- end container -->
 <div class="space-30"></div>
 </div>
+
+    
+
+
 
 
 <!-- Technology / Tools -->
@@ -309,22 +309,28 @@
 	<script src="assets/js/gsdk-bootstrapswitch.js"></script>
 	<script src="assets/js/get-shit-done.js"></script>
 	
-    <script src="assets/js/custom.js"></script>
-    <script src="assets/js/core.js"></script>
+  <script src="assets/js/custom.js"></script>
+  <script src="assets/js/core.js"></script>
 
 
-    <!-- custom JS -->
-    <script src="./assets/js/particles/particle.js"></script>
-    <script src="./assets/js/particles/app.js"></script>
-
+  <!-- custom JS -->
+  <script src="./assets/js/particles/particle.js"></script>
+  <script src="./assets/js/particles/app.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.12.1/rellax.min.js" integrity="sha256-+xf9aJnHocnmrigq2hIDJGBSAnJdF5NH+Ooe5J2PHiI=" crossorigin="anonymous"></script>
 
 
     <script type="text/javascript">
+
+      
       const instance = new Typewriter('#typed', {
         strings: ['Hi there ...<i class="fa fa-smile-o" aria-hidden="true"></i>` ', `I'm Axle`, `A Web Developer`],
         autoStart: true,
         loop: true,
       });
+    </script>
+
+    <script>
+      let rellax = new Rellax('.rellax');
     </script>
   
 </html>
